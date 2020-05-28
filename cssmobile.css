@@ -1,0 +1,78 @@
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0;
+        text-align: center;
+        background-color: #252525;
+        width: 100%;
+        background: linear-gradient(-69deg, #009bb8, #000000, #b81d00);
+    }
+
+    /* General */
+    .box {
+        margin: 75px auto;
+    }
+
+    .row {
+        width: 90%;
+        margin: auto;
+    }
+
+    /* Fix text */
+    * {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Header */
+    header {
+        width: 100%;
+    }
+
+    header div {
+        width: 100%,
+    }
+
+    /* Nav */
+    nav {
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        background-color: #000000;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px 5px;
+        text-decoration: none !important;
+    }
+
+    /* Intro */
+    #introbox img {
+        width: 75%;
+        height: 75%;
+        border-radius: 100%;
+    }
+
+    /* Websites */
+    .website {
+        margin: 75px auto;
+    }
+
+    .website img {
+        border-radius: 5%;
+        width: 90%;
+        height: 90%;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #000000;
+        bottom: 0px;
+        margin: 0;
+        padding: 10px;
+    }
+}

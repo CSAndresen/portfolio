@@ -1,0 +1,171 @@
+@media screen and (min-width: 501px) {
+    body {
+        margin: 0;
+        background-color: #252525;
+        color: #ffffff;
+        font-family: 'Roboto Mono', monospace;
+        text-align: center;
+        background: linear-gradient(-69deg, #009bb8, #000000, #b81d00);
+    }
+
+    * {
+        text-shadow: 2px 2px 2px #000000;
+    }
+
+    nav {
+        background-color: #000000;
+        width: 100%;
+        margin: 0;
+        position: sticky;
+        top: 0px;
+    }
+
+    footer {
+        background-color: #000000;
+        width: 100%;
+        display: block;
+    }
+
+    /* Header */
+    header div {
+        display: inline-block;
+    }
+
+    header #headleft {
+        text-align: left;
+        width: 39%
+    }
+
+    header #headright {
+        text-align: right;
+        width: 59%;
+    }
+
+    header a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+        header a:hover {
+            text-decoration: underline;
+        }
+
+    /* Nav */
+    nav a {
+        font-size: 20px;
+        padding: 15px;
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    /* Main */
+    main {
+        margin: auto;
+    }
+
+    .row {
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
+
+    .box {
+        margin: 200px auto;
+        width: 90%;
+    }
+
+        .box h1 {
+            font-size: 45px;
+        }
+
+        .box h3 {
+            font-size: 30px;
+        }
+
+        .box a, .box p {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+
+            .box a:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+    hr {
+        display: block;
+        width: 75%;
+    }
+
+    /* Intro */
+    #introbox img {
+        width: 300px;
+        height: 300px;
+        border-radius: 100%;
+    }
+
+    #introbox h1 {
+        font-size: 50px;
+    }
+
+    #introbox h3 {
+        font-size: 30px;
+    }
+
+    /* Websites */
+    .website {
+        display: inline-block;
+        margin: 25px auto;
+        width: 30%;
+        vertical-align: text-top;
+    }
+
+        .website img {
+            width: 90%;
+            border-radius: 5%;
+        }
+
+    /* About */
+    #aboutbox {
+        width: 60%;
+    }
+
+        #aboutbox p {
+            font-size: 20px;
+            margin-bottom: 20px auto;
+        }
+    /* skills */
+    .skills {
+        vertical-align: text-top;
+        display: inline-block;
+        width: 45%;
+        margin: 2%;
+    }
+
+    /* Contact */
+    #contactbox {
+    }
+
+        #contactbox h3 {
+            margin: 10px auto;
+            font-size: 25px;
+        }
+
+    /* Footer */
+    footer div {
+        display: inline-block;
+        width: 49%;
+        margin: 0;
+    }
+
+    footer #footleft {
+        text-align: left;
+    }
+
+    footer #footright {
+        text-align: right;
+    }
+}
